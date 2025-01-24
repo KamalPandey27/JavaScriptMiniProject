@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+.line{
+    width: 300px;
+    height: 10px;
+    background-color: white;
+    position: relative;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+h1{
+    color: white;
+    letter-spacing: 4px;
+}
+.percentage{
+    color: white;
+    font-size: 25px;
+}

@@ -1,0 +1,83 @@
+body {
+    background-image: url("https://wallpapercave.com/wp/wp2760985.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    color: white;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+body::before{
+    content: '';
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+.ClockContainer {
+    position: relative;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.ClockContainerHeading {
+    font-size: 20px;
+    font-style: italic;
+    font-family: cursive;
+    letter-spacing: 5px;
+}
+
+.ClockContainerContent {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.202);
+    width: 100px;
+    height: 100px;
+    padding-top: 10px;
+}
+
+.text {
+    background-color: rgba(0, 0, 0, 0.597);
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.fontsize {
+    font-size: 50px;
+}
+
+.AMPM{
+    display: flex;
+    align-items: end;
+    font-size: 25px;
+}
+

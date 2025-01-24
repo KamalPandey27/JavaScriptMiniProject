@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    padding-bottom: 20px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.399);
+}
+
+.month {
+    background-color: orangered;
+    width: 100%;
+    text-align: center;
+    height: 20%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 15px;
+    color: white;
+    font-size: 25px;
+}
+
+.year {
+    font-size: 20px;
+    color: rgb(159, 157, 157);
+}
+
+.day {
+    font-size: 20px;
+    color: rgb(159, 157, 157);
+}
